@@ -1,0 +1,39 @@
+.contact {
+  background: #fcf2e7;
+}
+
+.contact__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 140px;
+  p {
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: $bg-py;
+  }
+  h3 {
+    font-weight: 600;
+    color: #150c01;
+    font-size: x-large;
+    margin-bottom: 25px;
+  }
+  .input {
+    display: flex;
+    width: 80%;
+    input {
+      padding: 20px;
+      width: 100%;
+    }
+    button {
+      padding: 25px;
+      width: 130px;
+      border-radius: 10px;
+      background: $bg-py;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.testimonial__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 140px 318px;
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    .main__one {
+      font-size: larger;
+      font-weight: 500;
+      letter-spacing: 2px;
+      color: $bg-py;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-size: x-large;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .body {
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      img {
+        width: 200px;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

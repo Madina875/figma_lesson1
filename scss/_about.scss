@@ -1,0 +1,40 @@
+.about__wrapper {
+  width: 1140px;
+  height: 500px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 97px;
+
+  .about__wrapper-left {
+    img {
+      max-width: 555px;
+      max-height: 500px;
+      border-radius: 35px;
+      object-fit: cover;
+    }
+  }
+  .about__wrapper-right {
+    .main__p {
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 20%;
+      color: $bg-py;
+      margin: 0 auto;
+      text-transform: uppercase;
+    }
+    h3 {
+      font-weight: 700;
+      font-size: 31.25px;
+      margin-bottom: 30px;
+    }
+    p {
+      color: #767575;
+    }
+    .btn {
+      margin-top: 29px;
+    }
+  }
+}
